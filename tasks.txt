@@ -1,0 +1,19 @@
+Implement "head" or "tail" utilities
+Implement "even" or "odd"
+
+getopt for parameters:
+- { head | tail } [OPTION] ... [FILE]
+
+
+print first|last 10 lines of FILE (if not: stdin) to stdout
+
+options:
+-n K (first|last K lines)
+-V (output version info (name, email, SID))
+-h (output option list & exit)
+-e|-o (even|odd lines)
+
+Roadmap:
+- print file contents
+- print stdin contents
+- print first 10 lines
